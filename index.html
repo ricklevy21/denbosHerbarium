@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--jQuery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Press+Start+2P&family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!--Supplemenatal CSS-->
+    <link rel="stylesheet" href="./assets/style.css">
+
+    <title>Denbo's Herbarium</title>
+</head>
+<body>
+    <!--NAVBAR --contains site title, high scores button, timer and current score-->
+    <nav class="navbar navbar-light container">
+        <span class="navbar-brand mb-0 h1">Denbo's Herbarium</span>
+      </nav>
+
+    <!--MAIN CONTENT-->
+    <main class="container main-text">
+        <!--MAIN DIALOG TEXT-->
+        <div id="welcomeText"><h1>Welcome to Denbo's Herbarium</h1></div>
+        
+        
+        <!--QUESTION TEXT-->
+        <div id="question"></div>
+
+        <!--ANSWER OPTIONS-->
+        <div id="optionA"></div>
+        <br>
+        <div id="optionB"></div>
+        <br>
+        <div id="optionC"></div>
+        <br>
+        <div id="optionD"></div>
+        
+        <br>
+        <br>
+        <br>
+        <!--BEGIN QUIZ BUTTON-->
+        <div>
+            <div><button id="btn" class="btn btn-dark">Begin</button></div>
+        </div>
+        
+        <!--NEXT QUESTION BUTTON-->
+        <div>
+            <div id="nxtBtn"></div>
+        </div>
+
+    </main>
+    <script src="./assets/script.js"></script>
+</body>
+</html>
