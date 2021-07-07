@@ -131,7 +131,7 @@ function bluejay() {
             dialogCounter = 1
             displayDialog()
             rockAlpine()
-        }, 3000)
+        }, 4000)
 }
 
 function rockAlpine() {
@@ -144,7 +144,7 @@ function rockAlpine() {
             $("#optionB").show();
             $("#optionC").show();
             $("#question").show();
-        }, 3000
+        }, 6000
     )
 }
 
@@ -228,7 +228,7 @@ var questionsArr = [
         }
     },
     {
-        questionText: "At last, you arrive at the Rock Alpine Garden. My what lush lovely forbes! What would you like to collect?",
+        questionText: "At last, you arrive at the Rock Alpine Garden. My, what lush lovely forbes! What would you like to collect?",
         choices: {
             a: "Eritrichium aretioides",
             b: "Dodecatheon pulchellum",
